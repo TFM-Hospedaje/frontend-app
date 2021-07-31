@@ -1,0 +1,41 @@
+.nav__wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+hr {
+    width: 90%;
+    border:1px solid #009B7D;
+    background-color: #009B7D;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.link:hover {
+    color:#009B7D;
+}
+
+.active {
+    color:#009B7D;
+    border-left: 1px solid #009B7D;  
+    border-right: 1px solid #009B7D; 
+}
+
+.logout {
+    cursor: pointer;
+}
+

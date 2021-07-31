@@ -1,0 +1,15 @@
+.goback {
+    display: flex;
+    font-size:36px;
+    color:black;
+    
+}
+
+.goback:hover {
+    color: #009B7D
+}
+
+.backbtn {
+    cursor: pointer;
+}
+

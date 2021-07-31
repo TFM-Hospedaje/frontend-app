@@ -1,0 +1,311 @@
+.profile__container {
+    display: flex;
+    padding: 20px;
+    height: 100vh;
+    padding-left: 4rem;
+}
+
+.profile__container--asidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid green;
+    flex:1;
+}
+
+.book__row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.book__row > span {
+    padding-left: 1rem;
+    border-left: 1px solid green;
+    padding-right: 1rem;
+    border-right: 1px solid green;
+}
+
+.book__row--buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.book__row--buttons > span {
+    border: 1px solid green;
+    padding: 0.5rem;
+    margin: 1rem 1rem 0 0;
+    border-radius: 5px;
+}
+
+.book__row--buttons >span:nth-child(1) {
+    background-color: #009B7D;
+    color: white;
+}
+
+.book__row--buttons >span:nth-child(2) {
+    background-color: lightcoral;
+    color: white;
+}
+
+.book__row--buttons > span:hover {
+    cursor: pointer;
+}
+.book__row--inside > span {
+    padding-left: 1rem;
+    border-left: 1px solid green;
+    padding-right: 1rem;
+    border-right: 1px solid green;
+}
+
+.asidebar__buttons {
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    border: 1px solid green;
+    background-color: #009B7D;
+    color: white  
+}
+
+.asidebar__buttons:hover {
+    cursor: pointer;
+}
+
+.profile__container--content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    flex:4
+}
+
+.profile__container--content__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    display: block;
+    width: 441px;
+    max-width: 100%;
+    height: 69px;
+    border: 1px solid rgba(0, 155, 125,0.5);
+    background-color: #ffffff;
+    border-bottom-left-radius: 41px;
+    border-bottom-right-radius: 41px;
+    border-top-left-radius: 41px;
+    border-top-right-radius: 0;
+    box-shadow: 0 17px 40px 0 rgba(75, 128, 182, 0.07);
+    margin-bottom: 22px;
+    position: relative;
+    font-size: 17px;
+    color: #a7b4c1;
+    transition: opacity 0.2s ease-in-out, filter 0.2s ease-in-out,
+      box-shadow 0.1s ease-in-out;
+  }
+  
+  .input-group:hover {
+    box-shadow: 0 14px 44px 0 rgba(0, 0, 0, 0.077);
+  }
+  
+  .input-group input {
+    position: absolute;
+    border: 0;
+    box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
+    top: 0;
+    height: 65px;
+    width: 100%;
+    padding: 0 53px;
+    box-sizing: border-box;
+    z-index: 3;
+    display: block;
+    color: black;
+    font-size: 17px;
+    font-family: "Oxygen", sans-serif;
+    transition: top 0.1s ease-in-out;
+  }
+  
+  .input-group input::placeholder {
+    color: rgba(0, 0, 0, 0);
+  }
+  
+  .input-group input:focus,
+  .input-group input:not(:placeholder-shown) {
+    top: 17px;
+  }
+  
+  .input-group label {
+    position: absolute;
+    border: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    padding: 0 53px;
+    box-sizing: border-box;
+    transition: all 0.1s ease-in-out;
+    cursor: text;
+  }
+  
+  .input-group input:focus + label,
+  .input-group input:not(:placeholder-shown) + label {
+    bottom: 20px;
+    font-size: 13px;
+    opacity: 0.7;
+  }
+  
+  .req-mark {
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    right: 33px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 22px;
+    color: #e0e0e0;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+  .req-mark-err {
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    right: 33px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 22px;
+    color: red;
+    font-family: "Ubuntu", sans-serif;
+  }
+
+
+  .header__section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+  }
+
+  .editprofile__button {
+      display: flex;
+      padding: 0.5rem;
+      background-color: #009B7D;
+      color: white;
+      border: 1px solid green;
+      border-radius: 5px;
+  }
+
+  .editprofile__button:hover {
+      cursor: pointer;
+  }
+
+  
+  .editbooking__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.editbooking__header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close__editbooking {
+    color: rgb(0, 155, 125);
+    cursor: pointer;
+}
+
+.editbooking__container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 155, 125,0.7)
+}
+
+.title__editbooking__info {
+    color: rgb(0, 155, 125);
+    padding: 10px;
+    font-weight: 900;
+}
+
+.editbooking__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.reserva__info {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex:1;
+    border-right: 1px solid rgb(0, 155, 125);
+}
+
+.user__info {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex:1;
+}
+
+.row__userinfo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.reserva__input {
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.row__span {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.editbooking__footer {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+}
+
+.editbooking__button {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid rgb(0, 155, 125);
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+} 
+
+.editbooking__button:hover {
+    background-color: rgba(0, 155, 125,0.7);
+    color: white;
+}

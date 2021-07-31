@@ -1,0 +1,94 @@
+.bookings__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.bookings__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reload {
+    color:#009B7D;
+    padding-right: 3rem;
+    cursor: pointer;
+}
+
+.title {
+    align-self: flex-start;
+    color:#009B7D;
+}
+
+.bookings__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 155, 125,0.7);
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.bookings__ls {
+    display: flex;
+    flex:1;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid rgba(0, 155, 125,0.7);
+    padding: 20px;
+}
+
+.bookings__rs {
+    display: flex;
+    flex:2;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.text__rs {
+    color:#009B7D;
+}
+
+.datepicker {
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: rgba(0, 155, 125,0.7);
+}
+
+.people {
+    width: 50px;
+}
+
+.datepicker:hover {
+    color: white;
+    border: 1px solid rgba(0, 155, 125,0.7);
+    background-color: rgb(0, 155, 125);
+}
+
+input:focus {
+    border-radius: 2px;
+}
+
+.btnbooking {
+    width: 100%;
+    margin-right: 20px;
+}
+
+
+.form-row {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    padding: .5em;
+  }
+  

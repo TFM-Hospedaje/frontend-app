@@ -1,0 +1,24 @@
+.main__wrapper {
+    display: flex;
+ 
+    padding: 20px;
+}
+
+.main__banner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    height:400px;
+    flex:2;
+    background-image:url('../../assets/images/hotel-1749602_1920.jpg');
+    opacity: 0.85;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main__title {
+    display: flex;
+    flex: 1;
+}
+

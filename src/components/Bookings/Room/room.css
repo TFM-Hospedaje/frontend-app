@@ -1,0 +1,202 @@
+.room__wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.room__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.room__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 155, 125,0.7);
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1;
+}
+
+.room__photos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    flex: 1;
+    border-radius: 5px;
+    background-color: rgb(0, 155, 125);
+}
+
+.room__info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    flex: 1;
+
+}
+
+.desc {
+    text-align: center;
+}
+
+.title__info {
+    text-align: left;
+    color:rgb(0, 155, 125);
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.general__info {
+    display: flex;
+    padding: 7px;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 155, 125);
+    flex:1;
+    width: 70%;
+}
+
+.g__row {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.g__row > span {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(0, 155, 125);
+    padding: 20px;
+}
+
+.reserva__room {
+    display:flex;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid rgb(0, 155, 125);
+    color:white;
+    cursor: pointer;
+    animation: glowing 2500ms infinite;
+}
+
+.reserva__room:hover {
+    background-color: rgba(0, 155, 125,0.7);
+    color: white;
+}
+
+/*MODAL CSS */
+
+.modal__wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal__header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close__modal {
+    color: rgb(0, 155, 125);
+    cursor: pointer;
+}
+
+.modal__container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 155, 125,0.7)
+}
+
+.title__modal__info {
+    color: rgb(0, 155, 125);
+    padding: 10px;
+    font-weight: 900;
+}
+
+.modal__info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.reserva__info {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex:1;
+    border-right: 1px solid rgb(0, 155, 125);
+}
+
+.user__info {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex:1;
+}
+
+.row__userinfo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+
+.reserva__input {
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.row__span {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.modal__footer {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+}
+
+.modal__button {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid rgb(0, 155, 125);
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px;
+    cursor: pointer;
+} 
+
+.modal__button:hover {
+    background-color: rgba(0, 155, 125,0.7);
+    color: white;
+}
+  
+  @keyframes glowing {
+    0% { background-color: rgba(0, 155, 125,0.7); box-shadow: 0 0 1px rgba(0, 155, 125,0.7); }
+    50% { background-color: rgb(0, 155, 125); box-shadow: 0 0 20px rgb(0, 155, 125); }
+    100% { background-color: rgba(0, 155, 125,0.7); box-shadow: 0 0 1px rgba(0, 155, 125,0.7); }
+  }
