@@ -43,7 +43,6 @@ La parte del cliente ha utilizado las siguientes tecnologías:
 - [TSX / HTML5 / CSS]
 - [GIT] - Controlador de versiones.
 - [node.js] - Manejador de paquetes
-- [Breakdance](https://breakdance.github.io/breakdance/) - HTML
 
 
 ## Instalación
